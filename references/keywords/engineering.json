@@ -1,0 +1,277 @@
+{
+ "name": "engineering",
+ "themes": [
+  {
+   "label": "Python",
+   "pattern": "python"
+  },
+  {
+   "label": "TypeScript / JavaScript",
+   "pattern": "typescript|javascript|\\bnode(?:\\.js)?\\b"
+  },
+  {
+   "label": "Go",
+   "pattern": "\\bgolang\\b|\\bgo\\b(?= |,|/)"
+  },
+  {
+   "label": "Rust",
+   "pattern": "\\brust\\b"
+  },
+  {
+   "label": "Java / Kotlin",
+   "pattern": "\\bjava\\b|kotlin"
+  },
+  {
+   "label": "React",
+   "pattern": "react"
+  },
+  {
+   "label": "distributed systems",
+   "pattern": "distributed systems?"
+  },
+  {
+   "label": "scalability",
+   "pattern": "scal(?:e|able|ability|ing)"
+  },
+  {
+   "label": "system design / architecture",
+   "pattern": "system design|architect\\w*"
+  },
+  {
+   "label": "Kubernetes / containers",
+   "pattern": "kubernetes|\\bk8s\\b|docker|containers?"
+  },
+  {
+   "label": "AWS / GCP / Azure",
+   "pattern": "\\baws\\b|\\bgcp\\b|azure"
+  },
+  {
+   "label": "databases",
+   "pattern": "postgres\\w*|mysql|database\\w*|\\bsql\\b"
+  },
+  {
+   "label": "CI/CD",
+   "pattern": "ci/cd|continuous (?:integration|delivery|deployment)"
+  },
+  {
+   "label": "testing",
+   "pattern": "testing|tests?\\b"
+  },
+  {
+   "label": "observability",
+   "pattern": "observability|monitoring|reliability|\\bsre\\b"
+  },
+  {
+   "label": "code review",
+   "pattern": "code reviews?"
+  },
+  {
+   "label": "performance",
+   "pattern": "performance|latency"
+  },
+  {
+   "label": "ML infrastructure",
+   "pattern": "ml(?:ops| infrastructure)|training|inference"
+  },
+  {
+   "label": "open source",
+   "pattern": "open[- ]source"
+  },
+  {
+   "label": "on-call",
+   "pattern": "on-?call"
+  },
+  {
+   "label": "strategy",
+   "pattern": "strateg\\w+"
+  },
+  {
+   "label": "ownership / end-to-end",
+   "pattern": "ownership|\\bown\\b|\\bowned\\b|end[- ]to[- ]end"
+  },
+  {
+   "label": "cross-functional",
+   "pattern": "cross[- ]functional\\w*"
+  },
+  {
+   "label": "stakeholders",
+   "pattern": "stakeholders?"
+  },
+  {
+   "label": "executives / leadership",
+   "pattern": "executives?|c-suite|c-level|leadership team"
+  },
+  {
+   "label": "influence",
+   "pattern": "influenc\\w+"
+  },
+  {
+   "label": "communication",
+   "pattern": "communicat\\w+"
+  },
+  {
+   "label": "writing",
+   "pattern": "writ(?:e|er|ers|ing|ten)"
+  },
+  {
+   "label": "presenting",
+   "pattern": "present(?:ation|ations|ing)|public speaking|keynotes?|webinars?"
+  },
+  {
+   "label": "customers",
+   "pattern": "customers?"
+  },
+  {
+   "label": "data",
+   "pattern": "\\bdata\\b"
+  },
+  {
+   "label": "data-driven",
+   "pattern": "data[- ]driven|data[- ]informed"
+  },
+  {
+   "label": "metrics / KPIs",
+   "pattern": "metrics?|kpis?|okrs?"
+  },
+  {
+   "label": "analytics",
+   "pattern": "analytic\\w*"
+  },
+  {
+   "label": "experimentation / A-B testing",
+   "pattern": "experiment\\w*|a/b test\\w*"
+  },
+  {
+   "label": "frameworks",
+   "pattern": "frameworks?"
+  },
+  {
+   "label": "ambiguity",
+   "pattern": "ambigu\\w+"
+  },
+  {
+   "label": "fast-paced",
+   "pattern": "fast[- ]paced|fast[- ]moving"
+  },
+  {
+   "label": "hands-on / scrappy",
+   "pattern": "scrappy|hands[- ]on|roll up"
+  },
+  {
+   "label": "first principles",
+   "pattern": "first[- ]principles?"
+  },
+  {
+   "label": "startup / early-stage",
+   "pattern": "start-?ups?|early[- ]stage|high[- ]growth|hypergrowth"
+  },
+  {
+   "label": "founding / first hire",
+   "pattern": "founding|first (?:hire|\\w+ hire)"
+  },
+  {
+   "label": "0 to 1",
+   "pattern": "0 ?(?:to|-|→) ?1|zero to one|from scratch|ground up"
+  },
+  {
+   "label": "leadership / mentoring",
+   "pattern": "mentor\\w*|manag(?:e|ing) a team|people manager|team lead\\w*|lead a team|build (?:and lead )?(?:the|a) team"
+  },
+  {
+   "label": "collaboration",
+   "pattern": "collaborat\\w+|partner(?:ing|ed)? with"
+  },
+  {
+   "label": "roadmap",
+   "pattern": "roadmaps?"
+  },
+  {
+   "label": "enterprise",
+   "pattern": "enterprises?"
+  },
+  {
+   "label": "B2B",
+   "pattern": "\\bb2b\\b"
+  },
+  {
+   "label": "B2C / consumer",
+   "pattern": "\\bb2c\\b|consumer"
+  },
+  {
+   "label": "SaaS",
+   "pattern": "\\bsaas\\b"
+  },
+  {
+   "label": "platform",
+   "pattern": "platforms?"
+  },
+  {
+   "label": "API",
+   "pattern": "\\bapis?\\b"
+  },
+  {
+   "label": "cloud",
+   "pattern": "\\bcloud\\b"
+  },
+  {
+   "label": "security",
+   "pattern": "security"
+  },
+  {
+   "label": "compliance / regulated",
+   "pattern": "complian\\w+|regulat\\w+"
+  },
+  {
+   "label": "AI",
+   "pattern": "\\bai\\b|artificial intelligence"
+  },
+  {
+   "label": "generative AI / LLM",
+   "pattern": "generative ai|gen ?ai|\\bllms?\\b|large language models?|foundation models?"
+  },
+  {
+   "label": "AI agents / agentic",
+   "pattern": "agents?\\b|agentic"
+  },
+  {
+   "label": "machine learning",
+   "pattern": "machine learning|\\bml\\b"
+  },
+  {
+   "label": "automation / workflows",
+   "pattern": "automat\\w+|workflows?"
+  },
+  {
+   "label": "revenue",
+   "pattern": "revenue"
+  },
+  {
+   "label": "growth",
+   "pattern": "\\bgrowth\\b"
+  },
+  {
+   "label": "adoption",
+   "pattern": "adoption"
+  },
+  {
+   "label": "retention",
+   "pattern": "retention|churn"
+  },
+  {
+   "label": "ROI / business value",
+   "pattern": "\\broi\\b|business value|value realization|tco"
+  },
+  {
+   "label": "use cases",
+   "pattern": "use[- ]cases?"
+  },
+  {
+   "label": "years of experience",
+   "pattern": "(?:3|three|4|four|5|five|6|six|7|seven|8|eight|10|ten)\\+? years"
+  },
+  {
+   "label": "degree",
+   "pattern": "bachelor'?s|master'?s|\\bmba\\b|\\bphd\\b|degree"
+  }
+ ]
+}
